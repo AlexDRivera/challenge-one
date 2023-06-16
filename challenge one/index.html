@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-egde">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">  
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="imajenes/Vector.png" alt="logo de alura" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <section class="left">
+                <textarea class="text-area" placeholder="Ingrese el texto a Encriptar."></textarea>
+                <div class="footer-left">
+                    <img src="imajenes/exclamacion.png" alt="signo de exclamacion">
+                    <span>Solo letras minúsculas y sin acentos.</span>
+                    <div class="botones">
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right">
+                <div>
+                    <img src="imajenes/Muñeco.png" alt="Muñeco" class="muñeco">
+                    <textarea class="mensaje" placeholder="No hay ningun mensaje."></textarea>
+                    <button class="btn-copiar ocultar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--<footer>
+    </footer>-->
+    <script src="script.js"></script>
+</body>
+</html>
